@@ -621,10 +621,6 @@ function tagclick(tag_el) {
 		}
 	}
 	reshow();
-	console.log('yes:');
-	console.log(yes_l);
-	console.log('no:');
-	console.log(no_l);
 }
 
 var classes = {};
@@ -638,7 +634,6 @@ for (var i=0; i<els.length; i++) {
 		}
 	}
 	var d = els[i].getElementsByClassName('desc');
-	console.log(d);
 	if (d) {
 		d[0].innerHTML = els[i].className.replace('lazy ', '');
 	}
