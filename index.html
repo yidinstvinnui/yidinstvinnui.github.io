@@ -161,7 +161,7 @@ img.minhoca {
 	<div class="desc"></div>
 </div>
 <div class="lazy schau adeus site-ruim graca">
-	<a href="https://ibb.co/5sDrc0x"><img loading="lazy" class="gi" id="ct_pyy.png" src="https://i.ibb.co/9yXbYD3/ct-pyy.png
+	<a href="https://ibb.co/5sDrc0x"><img loading="lazy" class="gi" id="ct_pyy.png" src="https://i.ibb.co/9yXbYD3/ct-pyy.png">
 	<div class="desc"></div>
 </div>
 <div class="lazy crime fakes">
@@ -638,6 +638,7 @@ for (var i=0; i<els.length; i++) {
 		}
 	}
 	var d = els[i].getElementsByClassName('desc');
+	console.log(d);
 	if (d) {
 		d[0].innerHTML = els[i].className.replace('lazy ', '');
 	}
